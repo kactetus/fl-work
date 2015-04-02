@@ -1,0 +1,184 @@
+/* MAIN */
+nav:first-child  *{
+	height:76px;
+}
+#main_logo{
+	width:300px;
+	height:76px;
+	padding:0px;
+}
+
+#main_logo img{
+	margin:0px;
+	padding:0px;
+}
+
+#main_nav a{
+	line-height:50px !important;
+}
+
+.panel-body{
+	color:gray;
+}
+
+.panel-heading{
+	background:white !important;
+}
+
+nav#left_menu{
+	float:left;
+}
+/* END MAIN */
+
+
+
+/* FILTERS */
+#filter_part{
+	width:230px;
+	height:100%;
+	background:white;
+	color:black;
+	float:right;
+	padding:30px 10px 10px 10px;
+	border-radius:5px;
+	box-shadow:0px 0px 10px 1px gray;
+	position:relative;
+	left:-20px;
+}
+
+#filter_part div{
+	text-align:left;
+	font-size:13px;
+}
+
+#filter_agree, #save_filter{
+	display:block;
+	margin:0 auto;
+}
+
+.go_filter{
+	padding:0px 0px 0px 15px;
+}
+
+.del_filter{
+	color:red;
+}
+
+.filter_list_item{
+	margin-top:5px;
+}
+
+.save_project{
+	position:absolute;
+	right:0px;
+	bottom:-8px;
+}
+
+.save_project button{
+	height:30px;
+	width:30px;
+}
+
+.save_project_link{
+	color:black;
+}
+
+#project_saved_link{
+	color:green;
+}
+/* END FILTERS */
+
+
+
+/* PROJECTS */
+#pr_container{
+	width:1000px;
+	float:right;
+	position:relative;
+	left:-100px;
+	padding-top:30px;
+	background:white;
+}
+
+#projects{
+	width: 700px;
+	text-align:center;
+	padding-bottom:30px;
+	position:relative;
+	left:-50px;
+	float:right;
+}
+
+.fav_projects{
+	width: 90%;
+	text-align:center;
+	padding-bottom:30px;
+	margin:0 auto;
+}
+
+#per_page{
+	width:500px;
+	margin:0 auto;
+}
+
+#per_page li.active a{
+	background: #9ACD32;
+	box-shadow:0px 0px 5px 1px #9ACD32;
+}
+
+.pagination{
+	margin:0 auto;
+}
+
+.project_post{
+	text-align:left;
+	padding:10px;
+	border-radius:10px;
+	box-shadow:0px 0px 10px 1px gray;
+}
+
+.job_title:visited{
+	color:#F74F9E;
+}
+
+.project_post pre{
+	background:none;
+	border:none;
+	font-family: "Times New Roman",sans-serif !important;
+	font-size:14px;
+}
+
+.project_description{
+	color:black;
+	position:relative;
+}
+
+.project_border{
+	border:1px solid gray;
+	border-radius:50%;
+}
+
+.job_time{
+	position:absolute;
+	right:20px;
+}
+
+.job_price, .job_time, .job_category, .job_requirements{
+	color:#37521D;
+	font-size:14px !important;
+}
+/*END PROJECTS*/
+
+
+
+/* STATISTICS */
+.set_date_type{
+	text-align:center;
+}
+
+.set_date_type ul{
+	display:block;
+	margin:0 auto;
+	width:400px !important;
+}
+/*END STATISTICS*/
