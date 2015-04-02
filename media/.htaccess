@@ -1,0 +1,2 @@
+#Don't let to see files of current directory
+Options -Indexes FollowSymLinks
